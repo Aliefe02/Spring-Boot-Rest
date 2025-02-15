@@ -1,0 +1,2 @@
+ mvn flyway:repair     -Dflyway.url=jdbc:mysql://127.0.0.1:3306/restdb     -Dflyway.user=restadmin     -Dflyway.password=password
+ mvn flyway:migrate     -Dflyway.url=jdbc:mysql://127.0.0.1:3306/restdb     -Dflyway.user=restadmin     -Dflyway.password=password
